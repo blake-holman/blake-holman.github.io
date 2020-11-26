@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "Active Tracking and Re-Identification for Mobile Robot Person Following"
 date:   2020-05-1 0:0:0 +00:00
 image: assets/images/index/persontracking.png
 categories: research
