@@ -4,8 +4,7 @@ title:  "Using Human-Inspired Signals to Disambiguate Navigational Intentions"
 date:   2020-05-1 0:0:0 +00:00
 image: /assets/images/index/bwi.jpg
 categories: research
-authors: <strong>Abrar Anwar</strong>, Blake Holman, Connor Sheehan, Jeffery Huang
-subtitle: "human-robot interation"
+authors: Abrar Anwar, <strong>Blake Holman</strong>, Connor Sheehan, Jeffery Huang
 venue: UT Undergraduate Research Forum
 poster: https://blake-holman.github.io/assets/images/index/hallway_urf_2020.jpg
 

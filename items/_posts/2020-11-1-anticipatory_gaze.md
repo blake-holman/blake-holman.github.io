@@ -2,7 +2,7 @@
 layout: post
 title:  "Watch Where You're Going! Gaze and Head Orientation as Predictors for Social Robot Navigation"
 date:   2020-11-1 0:0:0 +00:00
-image: /assets/images/index/abrar_gaze.jpg
+image: /assets/images/index/participant_paths.png
 categories: research
 authors: <strong>Blake Holman</strong>, Abrar Anwar Akash Singh, Mauricio Tec, Justin Hart, Peter Stone
 venue: International Conference on Robotics and Automation (submitted)
