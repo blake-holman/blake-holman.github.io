@@ -31,7 +31,7 @@ layout:
                 Blake Holman
               </h1>
               <p>
-                I'm Blake, a senior in Computer Science at the <a target="_blank" href="https://www.cs.utexas.edu/">University of Texas at Austin </a> (Class of 2021)
+                I'm Blake, a senior in Computer Science and Mathematics at the <a target="_blank" href="https://www.cs.utexas.edu/">University of Texas at Austin </a> (Class of 2021)
             </p>
                 I am broadly interested in theoretical computer science, especially algorithmic game theory and cryptography. My recent work involves characterizing the popularity criterion in the context of Three-Dimensional Stable Marriage. 
             <p>
@@ -43,7 +43,7 @@ layout:
                 <a target="_blank" href="Blake.Holman@utexas.edu"> Email</a> &nbsp;/&nbsp;
                 <!-- <a target="_blank" href="https://github.com/AbrarAnwar">GitHub</a> &nbsp;/&nbsp; -->
                 <a target="_blank" href="www.linkedin.com/in/blake-holman-45180514b"> LinkedIn </a> &nbsp;/&nbsp;
-                <!-- <a target="_blank" href="/assets/abrar_cv.pdf"> CV </a> &nbsp;/&nbsp; -->
+                <a target="_blank" href="/assets/Blake_Holman_CV.pdf"> CV </a> &nbsp;
                 <!-- <a href="/blog.html"> Blog </a>  -->
                 
               </p>
@@ -80,8 +80,8 @@ layout:
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> 
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
@@ -90,7 +90,7 @@ layout:
               <a href="{{post.code}}">code</a> /
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              <a href="{{post.poster}}">poster</a> 
               {% endif %}
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
@@ -108,63 +108,7 @@ layout:
           {% endfor %}
         </table>
 
-        <br>
-        <br>
-        <br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
-              <p> These include coursework, side projects and unpublished research work. 
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-
-            {% for post in site.categories.items %}
-            {% for cat in post.categories %}
-                {% if cat == 'project' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.type}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-
+      
 
 
 
