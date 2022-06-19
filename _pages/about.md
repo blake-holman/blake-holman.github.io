@@ -17,8 +17,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+  
+I'm Blake, a first-year PhD student in computer science at Purdue University!
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am broadly interested in cryptography and quantum computation. Currently, I'm researching the classical and post-quantum security of memory-hard functions with my advisor [Jeremiah Blocki](https://www.cs.purdue.edu/homes/jblocki/). This summer I'll be joining the Fundamental Algorithmic Research for Quantum Computing <a target="_blank" href="https://www.sandia.gov/quantum/quantum-information-sciences/projects/fundamental-algorithmic-research-for-quantum-computing/">(FAR-QC)</a> team at Sandia National Laboratories. I'm grateful to be supported by the Ross Fellowship at Purdue for the 2021-2022 academic year and the Ford Foundation Predoctoral Fellowship starting Fall 2022.
+
+Prior to joining Purdue, I studied computer science and mathematics at the University of Texas at Austin as a Ronald E. McNair Scholar. At UT I worked with <a target="_blank" href="https://www.cs.utexas.edu/users/plaxton/index.html">Greg Plaxton</a> on three-dimensional stable marriage and conducted research as a part of the <a target="_blank" href="https://www.cs.utexas.edu/~larg/bwi_web/">Building-Wide Intelligence Project</a> with <a target="_blank" href="http://justinhart.net/">Justin Hart</a>.
