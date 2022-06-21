@@ -74,8 +74,8 @@ stackoverflow_id: #your stackoverflow id
 
 contact_note: >
   The best way to reach me is by email at blake@purdue.edu.
-
-google_analytics:  G-YTGNM0789F # your google-analytics ID (format: UA-XXXXXXXXX)
+ga4_analytics: G-65E1QDMZ53 #This is your GA4 measurement ID
+google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
