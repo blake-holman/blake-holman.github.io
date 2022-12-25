@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 
   
-I'm Blake, a first-year PhD student in computer science at Purdue University!
+I'm Blake, a second-year PhD student in computer science at Purdue University!
 
 I am broadly interested in cryptography and quantum computation. Currently, my research is on the classical and post-quantum security of memory-hard functions with my advisor [Jeremiah Blocki](https://www.cs.purdue.edu/homes/jblocki/). This summer I'll be joining the Fundamental Algorithmic Research for Quantum Computing <a target="_blank" href="https://www.sandia.gov/quantum/quantum-information-sciences/projects/fundamental-algorithmic-research-for-quantum-computing/">(FAR-QC)</a> team at Sandia National Laboratories. I'm grateful to be supported by the Ross Fellowship at Purdue for the 2021-2022 academic year and the Ford Foundation Predoctoral Fellowship starting Fall 2022.
 
