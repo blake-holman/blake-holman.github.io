@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
   
 I'm Blake, a second-year PhD student in computer science at Purdue University!
 
-I am broadly interested in cryptography and quantum computation, and I'm more specifically interested in time-space/query-space trade-offs in these settings. At Purdue, my research is on the classical and post-quantum security of memory-hard functions with my advisor [Jeremiah Blocki](https://www.cs.purdue.edu/homes/jblocki/). I intern at the Fundamental Algorithmic Research for Quantum Computing <a target="_blank" href="https://www.sandia.gov/quantum/quantum-information-sciences/projects/fundamental-algorithmic-research-for-quantum-computing/">(FAR-QC)</a> team at Sandia National Laboratories, where I'm studying the quantum query complexity of various graph problems. 
+I am broadly interested in cryptography and quantum computation, and I'm more specifically interested in time-space/query-space trade-offs in these settings. At Purdue, my research is on the classical and post-quantum security of memory-hard functions with my advisor [Jeremiah Blocki](https://www.cs.purdue.edu/homes/jblocki/). I intern at the Quantum Algorithms and Applications Collaboratory <a target="_blank" href="https://www.sandia.gov/quantum/quaac/">(QuAAC)</a> team at Sandia National Laboratories, where I'm studying the quantum query complexity of various graph problems. 
 
 I'm grateful to be supported by the Ross Fellowship at Purdue for the 2021-2022 academic year, the Ford Foundation Predoctoral Fellowship from Fall 2022, and the National Science Foundation Graduate Research Fellowship (NSF-GRF) from Fall 2023.
 
