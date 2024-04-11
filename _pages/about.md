@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 
   
-I'm Blake, a second-year PhD student in computer science at Purdue University!
+I'm Blake, a third-year PhD student in computer science at Purdue University!
 
 I am broadly interested in cryptography and quantum computation, and I'm more specifically interested in time-space/query-space trade-offs in these settings. At Purdue, my research is on the classical and post-quantum security of memory-hard functions with my advisor [Jeremiah Blocki](https://www.cs.purdue.edu/homes/jblocki/). I intern in the Quantum Algorithms and Applications Collaboratory <a target="_blank" href="https://www.sandia.gov/quantum/quaac/">(QuAAC)</a> at Sandia National Laboratories, where I'm studying the quantum query complexity of various graph problems. 
 
