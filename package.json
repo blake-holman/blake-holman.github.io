@@ -1,5 +1,1 @@
-{
-  "dependencies": {
-    "grunt-reload": "^0.2.0"
-  }
-}
+{"dependencies":{"grunt-reload":"^0.2.0"}}
