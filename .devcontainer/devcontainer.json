@@ -1,0 +1,42 @@
+{
+  "name": "Blake Holman website",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "args": {
+      "USER_UID": "1000",
+      "USER_GID": "1000"
+    }
+  },
+  "remoteUser": "vscode",
+  "runArgs": [
+    "--init"
+  ],
+  "forwardPorts": [
+    4000,
+    35729
+  ],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll preview",
+      "onAutoForward": "openBrowser"
+    },
+    "35729": {
+      "label": "LiveReload",
+      "onAutoForward": "silent"
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "shopify.ruby-lsp",
+        "sissel.shopify-liquid",
+        "redhat.vscode-yaml",
+        "github.vscode-github-actions",
+        "davidanson.vscode-markdownlint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}

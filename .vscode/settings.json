@@ -1,0 +1,39 @@
+{
+  "files.associations": {
+    "_includes/**/*.html": "liquid",
+    "_layouts/**/*.html": "liquid"
+  },
+  "files.watcherExclude": {
+    "**/_site/**": true,
+    "**/.jekyll-cache/**": true,
+    "**/vendor/**": true
+  },
+  "search.exclude": {
+    "**/_site": true,
+    "**/.jekyll-cache": true,
+    "**/node_modules": true,
+    "**/vendor": true
+  },
+  "remote.autoForwardPorts": true,
+  "remote.portsAttributes": {
+    "4000": {
+      "label": "Jekyll preview",
+      "onAutoForward": "openBrowser"
+    },
+    "35729": {
+      "label": "LiveReload",
+      "onAutoForward": "silent"
+    }
+  },
+  "markdownlint.ignore": [
+    "README.md"
+  ],
+  "[markdown]": {
+    "editor.wordWrap": "on"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  }
+}
